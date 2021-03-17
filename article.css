@@ -103,6 +103,7 @@
   html{
       background-color:cornsilk;
   }
+  
 
 .menu-btn {
     position: fixed;
@@ -196,6 +197,7 @@
 
 .name{    
     text-align: center;
+    font-family:BankGothic Lt BT ;
 }
 
 
