@@ -3,7 +3,7 @@
     #menu-bg {
     background-color: #FF0000; /*赤色*/
     }
-    html{
+    body{
         width:auto;
         -webkit-text-size-adjust: 100%;
         font-family:Meiryo;
