@@ -1,5 +1,5 @@
 @charset "utf-8";
-@media screen and (max-width: 1767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+@media screen and (max-width: 5767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
     #menu-bg {
     background-color: #FF0000; /*赤色*/
     }
