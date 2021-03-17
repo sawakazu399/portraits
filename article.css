@@ -6,7 +6,7 @@
     body{
         width:auto;
         -webkit-text-size-adjust: 100%;
-        font-family:Yu Gothic;
+        font-family:sans-serif;
 
     }
 /*CAUTION:home.html ONLY*/
@@ -258,7 +258,7 @@ span a{
 
 .category span{
     font-size:15px;
-    margin-right:0.1%;
+    margin-right:1%;
 }
 
 footer h4{
