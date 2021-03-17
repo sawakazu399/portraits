@@ -1,5 +1,8 @@
 @charset "utf-8";
-
+@media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+    #menu-bg {
+    background-color: #FF0000; /*赤色*/
+    }
 /*CAUTION:home.html ONLY*/
 .slide {
     position:relative;
@@ -196,10 +199,7 @@
 }
 
 
-@media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
-    #menu-bg {
-    background-color: #FF0000; /*赤色*/
-    }
+
     
 /*ここからがニュース記事のCSS*/
     .unit{
