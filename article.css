@@ -229,8 +229,15 @@
     .unit_contents{
         text-align:left;
     }
+    .unit img{
+        width:80%;
+    }
+    
+    
+        .IMG{
+            text-align: center;
+        }
 
-}
 .category{
     margin:0 auto;
 }
