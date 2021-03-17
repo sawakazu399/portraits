@@ -198,6 +198,7 @@
 .name{    
     text-align: center;
     font-family:BankGothic Lt BT ;
+    width:85%;
 }
 
 
@@ -212,31 +213,22 @@
 /*ここからがニュース記事のCSS*/
     .unit{
         border: 1px solid black;
-        height:150px;
-        width:90%;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+        height:auto;
+        width:100%;
         margin:0 auto;
-        margin-bottom:20px;
+        margin-bottom:10px;
         background-color:ivory;
+
     }
     .unit a{
         text-decoration: none;
         color: royalblue;
     }
+    .unit_contents{
+        text-align:left;
+    }
 
-    dl{
-        float:left;
-    }
-    dd{
-        font:bold;
-        font-size:15px;
-               
-    }
-    
-    img{
-        width:20%;
-        height:auto;
-        float:right;
-    }
 }
 .category{
     margin:0 auto;
@@ -245,6 +237,7 @@
 span{
     
     margin-right:1%;
+    margin-left:1%;
     border:1px solid black;
     border-radius: 5px;
     text-align: center;
