@@ -230,12 +230,12 @@
         text-align:left;
     }
     .unit img{
-        width:80%;
+        width:90%;
+        object-fit: contain;
     }
     
-    
-        .IMG{
-            text-align: center;
+    .IMG{
+        text-align: center;
         }
 
 .category{
