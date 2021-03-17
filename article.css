@@ -6,6 +6,7 @@
     html{
         width:auto;
         -webkit-text-size-adjust: 100%;
+        font-family: serif;
     }
 /*CAUTION:home.html ONLY*/
 .slide {
@@ -208,7 +209,7 @@
 /*ここからがニュース記事のCSS*/
     .unit{
         border: 1px solid black;
-        height:100px;
+        height:150px;
         width:90%;
         margin:0 auto;
         margin-bottom:20px;
@@ -230,7 +231,7 @@
     
     img{
         width:20%;
-        height:100px;
+        height:auto;
         float:right;
     }
 }
