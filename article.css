@@ -6,7 +6,7 @@
     html{
         width:auto;
         -webkit-text-size-adjust: 100%;
-        font-family: serif;
+        font-family:monospace;
     }
 /*CAUTION:home.html ONLY*/
 .slide {
