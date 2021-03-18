@@ -4,11 +4,12 @@
     background-color: #FF0000; /*赤色*/
     }
     body{
-        width:auto;
+        width:100%;
         -webkit-text-size-adjust: 100%;
         font-family:sans-serif;
-
+        
     }
+    
 /*CAUTION:home.html ONLY*/
 .slide {
     position:relative;
@@ -101,9 +102,11 @@
 
   /*全ファイル共通コード*/
   html{
-      background-color:cornsilk;
+      width:90%;
+    margin: 0 auto;
+    background: cornsilk;
   }
-  
+
 
 .menu-btn {
     position: fixed;
@@ -197,14 +200,20 @@
 
 .name{    
     text-align: center;
-    font-family:BankGothic Lt BT ;
-    width:85%;
+    font-family: 'Monoton', cursive;
+    width:90%;
+    color: black;
+}
+.b1{
+    margin: 0 auto;
 }
 
-
 .b1 h1{
+    color: black;
     border-bottom: 1px solid black;  
     margin-bottom: 0;
+    width:90%;
+    text-align: center;
 }
 
 
@@ -216,7 +225,7 @@
         border-radius: 1px;
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
         
-        width:100%;
+        width:90%;
         margin:0 auto;
         margin-bottom:10px;
         background-color:ivory;
@@ -261,7 +270,17 @@ span a{
     font-size:15px;
     margin-right:1%;
 }
-
-footer h4{
+footer h5{
     text-align: center;
+    font-size:10px;
+    
 }
+
+footer h3{
+    border-top: 1px solid black;
+    font-family: 'Monoton', cursive;
+    color: black;
+    text-align: left;
+   
+}
+
