@@ -205,7 +205,10 @@
     color: black;
 }
 .b1{
-    margin: 0 auto;
+    width:100%;
+    margin:0 auto;
+   
+    
 }
 
 .b1 h1{
@@ -218,34 +221,56 @@
 
 
 
+
     
 /*ここからがニュース記事のCSS*/
-    .unit{
-        border: 1px solid black;
-        border-radius: 1px;
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-        
-        width:90%;
-        margin:0 auto;
-        margin-bottom:10px;
-        background-color:ivory;
 
-    }
-    .unit a{
-        text-decoration: none;
-        color: royalblue;
-    }
-    .unit_contents{
-        text-align:left;
-    }
-    .unit img{
-        width:90%;
-        object-fit: contain;
-    }
+        .b2 ul{
+            margin-left:5%;
+            margin:0 auto;
+            list-style: none;
+            padding-left:0;
+
+        } 
+
+ 
     
-    .IMG{
-        text-align: center;
+        .unit{
+            background:cornsilk;
+            border: 1px solid black;
+            border-radius: 1px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+            
+            width:90%;
+            margin:0 auto;
+            margin-bottom:10px;     
         }
+
+        .unit .IMGD:nth-of-type(2){
+            width:0px;
+            height:0px;
+        }
+
+        .unit img{
+            width:90%;
+            object-fit:contain;
+        }
+
+        .IMG{
+            text-align:center;
+            margin: 0 auto;
+            }
+    
+        .unit a{
+            text-decoration: none;
+            color: royalblue;
+        }
+        .unit_contents{
+            text-align:left;
+        }
+        
+        
+        
 
 .category{
     margin:0 auto;
