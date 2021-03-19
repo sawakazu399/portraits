@@ -215,6 +215,7 @@
 
 .top3 h5{
     position:absolute;
+    margin-bottom: 5px;
     bottom:0;
     right:0;
     color: white;
@@ -288,7 +289,7 @@
        #unit:last-of-type{
            margin-left:1%;
        }
-       #unit:nth-of-type(n+4){
+       #unit:nth-of-type(n+2){
            display:none;
        }
 
