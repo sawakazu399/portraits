@@ -232,26 +232,56 @@
             padding-left:0;
 
         } 
+        #b22{
+            display: flex;
+            flex-wrap: wrap;
+            width:100%;
+            }
+
+        #unit:nth-of-type(1)::before{
+            
+            content:<br>"Carrent Items";
+            font-size:30px;
+            color: black;border-bottom:1px solid black;
+        }
+        
+       #unit:nth-of-type(1){
+        width:97%;
+       }
+       #unit:nth-of-type(n+2){
+           font-size: 10%;
+           width:47%;
+       }
+       #unit:last-of-type{
+           margin-left:1%;
+       }
+       #unit:nth-of-type(n+6){
+           display:none;
+       }
+
+    
 
  
     
-        .unit{
+        #unit{
             background:cornsilk;
             border: 1px solid black;
             border-radius: 1px;
             box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-            
-            width:90%;
             margin:0 auto;
-            margin-bottom:10px;     
+            margin-bottom:10px;
+            transform:scale(1.0,1.0);
+            word-wrap: normal;
+
         }
 
-        .unit .IMGD:nth-of-type(2){
-            width:0px;
-            height:0px;
-        }
+        #unit:nth-of-type(2n):after {
+            content: "\A";
+            white-space: pre;
+          }
 
-        .unit img{
+
+        #unit img{
             width:90%;
             object-fit:contain;
         }
@@ -259,13 +289,14 @@
         .IMG{
             text-align:center;
             margin: 0 auto;
+            margin-bottom: 0;
             }
     
-        .unit a{
+        #unit a{
             text-decoration: none;
             color: royalblue;
         }
-        .unit_contents{
+        #unit_contents{
             text-align:left;
         }
         
@@ -306,6 +337,7 @@ footer h3{
     font-family: 'Monoton', cursive;
     color: black;
     text-align: left;
+    
    
 }
 
