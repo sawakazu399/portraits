@@ -280,7 +280,7 @@
        
         
        #unit:nth-of-type(1){
-        width:97%;
+        width:98%;
        }
        #unit:nth-of-type(n+2){
            font-size: 10px;
@@ -289,7 +289,7 @@
        #unit:last-of-type{
            margin-left:1%;
        }
-       #unit:nth-of-type(n+2){
+       #unit:nth-of-type(n+4){
            display:none;
        }
 
@@ -370,8 +370,9 @@ footer h3{
     border-top: 1px solid black;
     font-family: 'Monoton', cursive;
     color: black;
-    text-align: left;
-    
-   
+    text-align: left;  
 }
 
+footer{
+    background-color:#275372 ;
+}

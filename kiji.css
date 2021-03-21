@@ -1,5 +1,9 @@
 @charset "utf-8";
 @media screen and (max-width: 5767px) {
+    .top1 .name a{
+        text-decoration: none;
+        color:black;
+    }
     *{
         margin: 0px;
         padding:0px;
@@ -119,6 +123,18 @@
         font-family: 'Monoton', cursive;
     }
 
+    .star{
+        font-size: 8px;
+    }
+
+    .Q1 p{
+        text-align: right;
+        font-size: 10px;
+        margin-bottom:10px;
+        margin-top:0;
+
+    }
+
     .Q1{
         width: 90%;
         margin: 0 auto;
@@ -144,8 +160,11 @@
         width: 90%;
         margin-left:5%;
         text-align: left;
-        
-
+    }
+    .Q1 p{
+        width: 90%;
+        margin-left:5%;
+        text-align: left;
     }
 
     .Q1_menu{
@@ -162,7 +181,33 @@
         text-align: left;
         margin-left:5%;
         margin-top:40px;
-        margin-bottom:20px;
+        margin-bottom:5px;
+    }
+
+    .Q1_menu_sub{
+        text-align: left;
+        margin-left:8%;
+        margin-top:10px;
+        margin-bottom:15px;
+    }
+
+    .Q1 table{
+        border-collapse: collapse;
+        width:95%;
+        margin: 0 auto;
+        margin-top:10px;
+    }
+    tr:nth-child(odd){
+        background-color: powderblue;
+    }
+
+    .table_name{
+        width:40%;
+    }
+
+    .Q1 ol{
+        width:60%;
+        margin: 0 auto
     }
 
     footer h5{
@@ -200,6 +245,23 @@
     .category span{
         font-size:15px;
         margin-right:1%;
+    }
+    .BTN{
+        width:25%;
+        margin: 0 auto;
+        margin-bottom:20px;
+        line-height: 35px;
+    }
+    .BTN a{
+        text-decoration: none;
+        color:white;
+    }
+    .BTN p{
+        text-align: center;
+        border:1px solid rgb(95, 102, 109);
+        background-color: rgb(95, 102, 109);
+        border-radius:10px;
+        
     }
 
 
