@@ -230,6 +230,11 @@
 
 }
 
+.heading_name{
+    font-family: 'Cabin', sans-serif;
+    font: bolder;
+}
+
 .name{    
     text-align: center;
     font-family: 'Monoton', cursive;
@@ -341,7 +346,7 @@
     margin:0 auto;
 }
 
-span{
+.tag{
     
     margin-right:1%;
     margin-left:1.5%;
@@ -351,7 +356,7 @@ span{
     background-color: whitesmoke;
     font-size:10px;
 }
-span a{
+.tag a{
     text-decoration: none;
     color: black;
 }
@@ -375,4 +380,32 @@ footer h3{
 
 footer{
     background-color:#275372 ;
+}
+
+
+/*ここから先はAboutページのcss*/
+
+.logo{
+    font-family: 'Monoton', cursive;
+    font-weight: lighter;
+    font-size:smaller;
+}
+
+
+.A1 table{
+    width:95%;
+    margin:0 auto;
+    margin-bottom:5%;
+
+}
+
+.A1 th{
+    font-size:small;
+    width:35%;
+}
+
+
+
+tr:nth-child(odd){
+    background-color:lightseagreen;
 }
