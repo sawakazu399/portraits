@@ -379,7 +379,7 @@ footer h3{
 }
 
 footer{
-    background-color:#275372 ;
+    background-color:rgb(74, 80, 84);
 }
 
 
@@ -403,8 +403,6 @@ footer{
     font-size:small;
     width:35%;
 }
-
-
 
 tr:nth-child(odd){
     background-color:rgba(140, 191, 212, 0.925);
