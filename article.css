@@ -265,7 +265,7 @@
             position: relative;
             width:100%;
             margin: 0 auto;
-            background-image: url("BHPD5002\ \(2\).JPG");
+            
             
         }
         .b2_intro article{
@@ -273,7 +273,7 @@
             color:white;
             left:50%;
             
-            top:40%;
+            top:50%;
             -ms-transform: translate(-50%,-50%);
             -webkit-transform: translate(-50%,-50%);
             transform: translate(-50%,-50%);
@@ -384,8 +384,14 @@
     width:80%;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     font-size: 12px;
+}
+
+.sub_sub{
+    margin-left:5%;
+    font-size: 10px;
+    margin-bottom: 5px;
 }
 
 .WN{
