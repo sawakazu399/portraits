@@ -13,8 +13,6 @@
         font-family:sans-serif;    
     }
 
-   
-
 /*CAUTION:home.html ONLY*/
 .slide {
     position:relative;
@@ -45,7 +43,8 @@
       opacity: 0;
     }
   }
-   
+
+  
   .slide img {
     position: absolute;
     top: 50%;
@@ -131,7 +130,7 @@
     justify-content: center;
     align-items: center;
     z-index: 90;
-    background-color: #275372;
+    background-color: rgba(39, 83, 114, 0.527);
 }
 .menu-btn span,
 .menu-btn span:before,
@@ -213,35 +212,24 @@
     position: relative;
 }
 
-.top3 h5{
-    position:absolute;
-    margin-bottom: 5px;
-    bottom:0;
-    right:0;
-    color: white;
-    
-}
+
+
 
 .top2{
     z-index: 0;
     width:100%;
-
+    height:150px;
+    object-fit: cover;
     
-
-}
-
-.heading_name{
-    font-family: 'Cabin', sans-serif;
-    font: bolder;
 }
 
 .name{    
     text-align: center;
-    font-family: 'Monoton', cursive;
+    font-family: 'Bungee Shade', cursive;
     width:100%;
-    color: black;
-    background-color: rgba(74, 80, 84,0.5);
-    line-height: 80px;
+    color: white;
+    background-color:rgb(74, 80, 84);;
+    line-height: 75px;
     z-index: 2;
     position: fixed;
 }
@@ -269,6 +257,42 @@
     
 /*ここからがニュース記事のCSS*/
 
+        .b2{
+            padding-top:75px;
+        }
+
+        .b2_intro{
+            position: relative;
+            width:100%;
+            margin: 0 auto;
+            background-image: url("BHPD5002\ \(2\).JPG");
+            
+        }
+        .b2_intro article{
+            position: absolute;
+            color:white;
+            left:50%;
+            
+            top:40%;
+            -ms-transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            margin:0;
+            padding:0;
+            margin: 0 auto;          
+        }
+        .b2_intro img{
+            width:100%;
+            object-fit: cover;
+            height:200px;
+        }
+
+        .heading_name{
+            text-align: center;
+            margin: 0 auto;
+            padding-top:20px;
+        }
+
         .b2 ul{
             margin-left:5%;
             margin:0 auto;
@@ -279,31 +303,34 @@
         #b22{
             display: flex;
             flex-wrap: wrap;
-            width:97%;
+            width:90%;
+            margin: 0 auto;
             }
+
+        #unit a{
+            display: block;
+        }
+         
 
        
         
-       #unit:nth-of-type(1){
-        width:98%;
-       }
        #unit:nth-of-type(n+2){
-           font-size: 10px;
-           width:47%;
+           
        }
-       #unit:last-of-type{
-           margin-left:1%;
+       
+           
        }
        #unit:nth-of-type(n+4){
            display:none;
        }
 
+       
     
 
  
     
         #unit{
-            background:cornsilk;
+            background:rgb(118, 138, 139);
             border: 1px solid black;
             border-radius: 1px;
             box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
@@ -311,17 +338,14 @@
             margin-bottom:10px;
             transform:scale(1.0,1.0);
             word-wrap: normal;
+            width:100%;
 
         }
-
-        #unit:nth-of-type(2n):after {
-            content: "\A";
-            white-space: pre;
-          }
+        
 
 
         #unit img{
-            width:90%;
+            width:95%;
             object-fit:contain;
         }
 
@@ -330,6 +354,7 @@
             margin: 0 auto;
             margin-bottom: 0;
             }
+
     
         #unit a{
             text-decoration: none;
@@ -339,13 +364,6 @@
             text-align:left;
         }
         
-        
-        
-
-.category{
-    margin:0 auto;
-}
-
 .tag{
     
     margin-right:1%;
@@ -361,36 +379,83 @@
     color: black;
 }
 
-.category span{
-    font-size:15px;
-    margin-right:1%;
-}
-footer h5{
+
+.sub_heading{
+    width:80%;
+    margin: 0 auto;
     text-align: center;
-    font-size:10px;
-    
+    margin-bottom: 5px;
+    font-size: 12px;
 }
 
-footer h3{
-    border-top: 1px solid black;
-    font-family: 'Monoton', cursive;
+.WN{
+    text-align: center;
+    width:100%;
+}
+.WN iframe{
+    
+    width:90%;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+
+footer p{
+    text-align: center;
+    font-size:10px;    
+}
+
+.footer_name{
+    font-family: 'Bungee Shade', cursive;
     color: black;
-    text-align: left;  
+    margin-bottom: 0px;
 }
 
 footer{
-    background-color:rgb(74, 80, 84);
+    background-color:rgba(33, 109, 109, 1.0);
 }
 
 
 /*ここから先はAboutページのcss*/
 
 .logo{
-    font-family: 'Monoton', cursive;
+    font-family: 'Bungee Shade', cursive;
     font-weight: lighter;
     font-size:smaller;
+    color:white;
+}
+.about_logo{
+    font-family: 'Bungee Shade', cursive;
+    font-weight: lighter;
+    font-size:smaller;
+    color:black;
 }
 
+.top1{
+    position:fixed;
+}
+.top1_heading{
+    position:fixed;
+    top:75px;
+   
+    z-index: 2;
+    background-color: rgb(233, 233, 233);
+    width:100%;
+    text-align: center;
+}
+
+.top1_heading p{
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.A1{
+    padding-top:175px;
+    bottom:0px;
+    z-index: 1;
+}
 
 .A1 table{
     width:95%;
