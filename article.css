@@ -320,7 +320,7 @@
        
            
        }
-       #unit:nth-of-type(n+4){
+       #unit:nth-of-type(n+10){
            display:none;
        }
 
@@ -389,7 +389,7 @@
 }
 
 .sub_sub{
-    margin-left:5%;
+    margin-left:10%;
     font-size: 10px;
     margin-bottom: 5px;
 }
