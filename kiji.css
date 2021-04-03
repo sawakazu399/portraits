@@ -265,5 +265,11 @@
         
     }
 
+    iframe{
+        height:490px;
+        margin:0 auto;
+        width:100%;
+    }
+
 
 }

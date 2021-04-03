@@ -265,9 +265,11 @@
             position: relative;
             width:100%;
             margin: 0 auto;
-            
-            
         }
+        
+          
+            
+        
         .b2_intro article{
             position: absolute;
             color:white;
@@ -406,7 +408,7 @@
 }
 
 
-footer p{
+.footer_copyright{
     text-align: center;
     font-size:10px;    
 }
@@ -415,6 +417,11 @@ footer p{
     font-family: 'Bungee Shade', cursive;
     color: black;
     margin-bottom: 0px;
+}
+
+.footer_sub{
+    text-align: left;
+    font-size:11px;
 }
 
 footer{
