@@ -488,3 +488,9 @@ footer{
 tr:nth-child(odd){
     background-color:rgba(140, 191, 212, 0.925);
 }
+
+.insta {
+    font-style: none;
+    color: #000;
+    background-color: rgb(214, 127, 255);
+}
